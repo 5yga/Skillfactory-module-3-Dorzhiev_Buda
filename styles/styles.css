@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header {
+    background-color: black;
+    font-size: 11px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.logo {
+    color: #E3B873;
+    font-size: 13px;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation_item {
+    margin-right: 47px;
+}
+
+.header-navigation_item * {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.orange-text {
+    color: #E3B873;
+}
+
+.header-button {
+    padding: 13px 33px;
+    font-style: italic;
+}
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    padding-left: 134px;
+    padding-right: 628px;
+    position: relative;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    margin: 0;
+    font-family: "Yeseva One", 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.offer {
+    position: relative;
+    z-index: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-bottom: 21px;
+}
+
+.left-button {
+    margin: 0;
+    padding: 20px 42px;
+    font-style: italic;
+}
+
+.right-button {
+    background-color: rgba(117, 190, 218, 0.0); 
+    border-radius: 2px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 20px 23px;
+    font-style: italic;
+}
+
+.completed-projects {
+    background-color: #131313;
+    height: 1074px;
+    padding-top: 107px;
+    padding-left: 134px;
+    padding-right: 134px;
+    padding-bottom: 415px;
+}
+
+.cp-container {
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+.description {
+    margin-top: 75px;
+    margin-right: 49px;
+}
+
+.title {
+    margin: 0;
+    font-family: "Yeseva One", 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.about-projects {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.specific-descriptions {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 0;
+}
+
+.sd-title {
+    margin-top: 34px;
+    margin-bottom: 9px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.sd-text {
+    margin: 0;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.arrow {
+    width: 10.7px;
+    height: 10.7px;
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    margin-right: 60px;
+    background-color: #131313;
+}
+
+.locations {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.location_item {
+    margin-right: 60.5px;
+}
+
+.location_item * {
+    background-color: rgba(117, 190, 218, 0.0); 
+    border: 0;
+    font-family: "Yeseva One", 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 0 0 6.68px;
+}
+
+.given-location {
+    border-bottom: 1px solid #E3B873;
+    color: #E3B873;
+}
+
+.photo {
+    margin-top: 45px;
+}
